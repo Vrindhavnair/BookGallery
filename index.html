@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Wheel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./text-to-image title.jpeg">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav1">
+            <img class="img1" src="./text-to-image title.jpeg" alt="">
+            <input id="inp" type="text" placeholder="search title,author,publisher or ISBN">
+            <button type="submit"><img src="data:image/png;base64,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" alt=""></button>
+            <button id="btn">Login</button>
+            <button id="btn">SignUp</button>
+        </div>
+        <div class="nav2">
+            <select id="Books">
+                <option value="">Books</option>
+                <option value="Books"><a href="https://www.bookswagon.com/arts-photography-books">Arts-Photography</a></option>
+                <option value="Books"><a href="https://www.bookswagon.com/fiction-books">Fiction</a></option>
+                <option value="Books"><a href="https://www.bookswagon.com/medicine-books">Medicine</a></option>
+                <option value="Books"><a href="https://www.bookswagon.com/history-humanities-books">History & Humanities</a></option>
+                <option value="Books"><a href="https://www.bookswagon.com/environment-geography-books">Environment & Geography</a></option>
+                <option value="Books"><a href="https://www.bookswagon.com/lifestyle-books">Lifestyle</a></option>
+            </select>
+            <span class="span"><a href="https://www.bookswagon.com/promo-best-seller/new-arrivals/99325F010C89">New Arrivals</a></span>
+            <span class="span"><a href="https://www.bookswagon.com/promo-best-seller/box-sets/389DA2389287">Box Sets</a></span>
+            <span class="span"><a href="https://www.bookswagon.com/promo-best-seller/best-seller/03AC998EBDC2">Best Sellers</a></span>
+            <span class="span"><a href="https://www.bookswagon.com/promo/fiction-books/9D7S5K6U3M">Fiction Books</a></span>
+            <span class="span"><a href="https://www.bookswagon.com/promo-best-seller/award-winning/2109CDC4B4DC">Award Winners</a></span>
+            <span class="span"><a href="https://www.bookswagon.com/featured-authors">Featured Authors</a></span>
+            <span class="span"><a href="https://www.bookswagon.com/dealoftheday/TodaysDeal/B88F238E7C9E">Today's Deal</a></span>
+            <span class="span"><a href="https://www.bookswagon.com/requestbook">Request a Book</a></span>
+        </div>
+    </nav><br>
+    <hr>
+    <div class="main">
+        <h2><i>Trending Now</i></h2>
+        <div class="child1">
+            <div class="son1"><a href=""><img src="https://www.bookswagon.com/productimages/images200/618/9781421599618.jpg" alt=""><p>20th Century Boys:The Perfect Edition,Vol.1 <br>Naoki Urasawa <br>$1,090 <del>$1,687</del></p></a></div>
+            <div class="son1"><a href=""><img src="https://www.bookswagon.com/productimages/images200/119/9780062511119.jpg" alt=""><p>Manual For Living<br>$666 <del>$913</del></p></a></div>
+            <div class="son1"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/039/9781401958039.jpg" alt=""><p>The Light Seer's Taror<br>Chris-Anne<br>$1,224 <del>$2,075</del></p></a></div>
+            <div class="son1"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/287/9781974736287.jpg" alt=""><p>Spy X Family,Vol.9 <br>Tatsuya Endo <br>$546 <del>$843</del></p></a></div>
+            <div class="son1"><a href=""><img src="https://www.bookswagon.com/productimages/images200/456/9781421522456.jpg" alt=""><p>Vagabond(VIZBIG Edition),Vol.3 <br>Takehiko Inoue <br>$1,411 <del>$1,660</del></p></a></div>
+            <div class="son1"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/007/9780857360007.jpg" alt=""><p>Theory Of Music Workbook Grade1 <br>(2007) <br>$520 <del>$708</del></p></a></div>
+        </div>
+        <a class="b" href="https://www.bookswagon.com/promo-best-seller/now-trending/E5B93FF87A87">see all</a>
+         <br><br><hr> <br>
+        <h2><i>Best Sellers</i></h2>
+        <div class="child1">
+            <div class="son2"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/368/9781501110368.jpg" alt=""><p id="para">It End with Us<br>Colleen Hoover <br>$304 <del>$499</del></p></a></div>
+            <div class="son2"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/895/9781786330895.jpg" alt=""><p id="para">Ikigai <br>Francesc Miralles <br>$391 <del>$550</del></p></a></div>
+            <div class="son2"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/179/9781398518179.jpg" alt=""><p id="para">It Start with Us<br>Colleen Hoover<br>$412 <del>$699</del></p></a></div>
+            <div class="son2"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/268/9789390166268.jpg" alt=""><p id="para">The Psychology of Money<br>Morgan Housel <br>$299 <del>$395</del></p></a></div>
+            <div class="son2"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/831/9781847941831.jpg" alt=""><p id="para">Atomic Habits<br>James Clear <br>$551 <del>$799</del></p></a></div>
+            <div class="son2"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/126/9780143452126.jpg" alt=""><p id="para">Do It Today:Overcome <br>Foroux, Darius <br>$119 <del>$119</del></p></a></div>
+        </div>
+        <a class="b" href="https://www.bookswagon.com/promo-best-seller/best-seller/03AC998EBDC2">see all</a>
+        <br><br><hr><br><br>
+        <h2><i>Award Winners</i></h2>
+        <div class="child1">
+            <div class="son3"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/776/9781250316776.jpg" alt=""><p id="par">Red,White & Royal Blue<br>Casey McQuiston <br>$687 <del>$996</del></p></a></div>
+            <div class="son3"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/625/9780974320625.jpg" alt=""><p id="par">Emotional Intelligence 2.0 <br>Lac Su <br>$679 <del>$999</del></p></a></div>
+            <div class="son3"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/455/9781897238455.jpg" alt=""><p id="par">Conscious Parent<br>Shefali Tsabari<br>$1,348 <del>$1,822</del></p></a></div>
+            <div class="son3"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/746/9780140446746.jpg" alt=""><p id="par">Letters of Vincent Van Gogh<br>Arnold Pomerans <br>$994 <del>$1,577</del></p></a></div>
+            <div class="son3"><a href=""><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/228/9780060936228.jpg" alt=""><p id="par">Just Kids<br>Patti Smith <br>$994 <del>$1,577</del></p></a></div>
+            <div class="son3"><a href=""><img src="https://www.bookswagon.com/productimages/mainimages/194/9780062691194.jpg" alt=""><p id="par">New Kid <br>Jerry Craft <br>$518 <del>$750</del></p></a></div>
+        </div>
+        <a class="b" href="https://www.bookswagon.com/promo-best-seller/award-winning/2109CDC4B4DC">see all</a>
+    </div><br><br><br><hr>
+    <footer>
+        <div class="foot">
+            Company <br> <a id="afinal" href="">About Us</a><br><a id="afinal" href="">Career</a><br><a id="afinal" href="">Blog</a><br><a id="afinal"  href="">Contact us</a>
+        </div>
+        <div class="foot">
+            Policy <br> <a id="afinal" href="">Privacy Policies</a><br><a id="afinal" href="">Terms of Use</a><br><a id="afinal" href="">Secure Shopping</a><br><a id="afinal" href="">Copyright Policy us</a>
+        </div>
+        <div class="foot">
+            Help <br> <a id="afinal" href="">Payment</a><br><a id="afinal" href="">Shipping</a><br><a id="afinal" href="">Return</a><br><a id="afinal" href="">FAQ</a>
+        </div>
+        <div class="foot">
+            Misc <br> <a id="afinal" id="afinal" href="">Affliate</a><br><a id="afinal" href="">Sitemap</a>
+        </div>
+    </footer>
+</body>
+</html>
